@@ -85,7 +85,7 @@ int main(int argc, char** argv) {
 			}
 		}
 	//	cout << student[i][0]<<" : "<<result<<endl;
-		ofs <<  student[i][0]<<" : "<<result << "\n";
+		ofs <<  student[i][0]<<": "<<result << "\n";
 		result=0;
 	}
 	ofs.close();
